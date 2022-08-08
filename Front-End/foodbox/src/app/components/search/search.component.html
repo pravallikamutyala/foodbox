@@ -1,0 +1,22 @@
+<div class="form-header">
+    <div class="input-group">
+        <input #myInput type="text" name="search" formControlName="search" class="form-control" placeholder="Search Here" (keyup.enter)="doSearch(myInput.value)"/>
+        <button  (click)="doSearch(myInput.value)" class="input-group-text btn-danger">
+          <i class="fa fa-search"></i>
+        </button>
+      </div>
+
+    <!-- <input #myInput type="text" 
+           placeholder="Search for products ..."
+           class="au-input au-input-xl"
+           (keyup.enter)="doSearch(myInput.value)"  />
+           
+
+    <button (click)="doSearch(myInput.value)" class="au-btn-submit">
+        Search
+    </button> -->
+
+     
+    
+
+</div>
