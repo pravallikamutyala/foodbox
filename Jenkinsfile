@@ -1,4 +1,4 @@
-def containerName="springbootdocker"
+def containerName="foodbox"
 def tag="latest"
  
 node {
